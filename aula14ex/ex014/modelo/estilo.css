@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(122, 122, 231);
+    font: normal 1.1em Arial, Helvetica, sans-serif;
+}
+
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 70vw;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.214);
+}
+
+table {
+    margin: auto;
+    width: 70vw;
+    border-collapse: collapse;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.307);
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tbody > tr:nth-child(n) {
+    background-color: lightgray;
+}
+
+tbody > tr:nth-child(2n) {
+    background-color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
